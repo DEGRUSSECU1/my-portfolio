@@ -1,0 +1,237 @@
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+@import url(https://fonts.googleapis.com/css2?family=VT323&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Amatic+SC&family=Istok+Web&display=swap);
+/* font-family: 'Amatic SC', cursive;
+font-family: 'Istok Web', sans-serif; */
+
+body{
+  background: rgba(100,100,100, 0.3);
+  position:relative;
+}
+.subtitle{
+  font-family: 'Amatic SC', cursive;
+  font-size: 4em;
+  color: white;
+}
+.text{
+  text-align: justify;
+  color: black;
+  font-family: 'Istok Web', sans-serif;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+
+.navbar-brand{
+  padding:5px;
+  padding-left : 20px;
+  height:50px;
+  position : relative;
+}
+
+.navbar-brand img{
+  height: 100%;
+}
+
+.thumbnail{
+  max-width : 500px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.shadow{
+  box-shadow: 7px 7px 7px #666;
+   position : relative;
+  transition : all 0.2s;
+  top : 0;
+}
+.cust-caption{
+  display:none;
+  position: absolute;
+  background-color: rgba(30,30,30,0.8);
+  padding : 10px;
+  color:#ddd;
+  margin:5px;
+  bottom:0;
+  left:0;
+  right:0;
+  height : 60%;
+  margin:5px;
+  overflow-y : auto;
+}
+
+.stm-font{
+  font-family: 'VT323', monospace;
+  color: white;
+  font-size: 4em;
+  background-image: linear-gradient(to right, #141e30, #243b55);;
+  border-radius: 11px;
+  
+
+}
+
+.color-hover:hover{
+	color : #337AB7;
+}
+
+.up-hover:hover {
+  top :-5px;
+  box-shadow: 15px 15px 15px #777;
+}
+
+.cust-caption a{
+  color:white;
+  
+  text-shadow:1px 1px 2px black;
+}
+
+
+.heading{ 
+  text-align : center;
+  padding : 10px;
+}
+
+#about p{
+	font-size : 1.2em;
+		position : relative;
+	left : 10px;
+}
+
+
+
+.logo{
+	padding-top:50px;
+}
+
+.logo img{
+  position:relative;
+  width:100%;
+  max-width : 450px;
+  margin:auto;
+}
+
+.avatar{
+ display: block;
+	position:relative;
+	width : 200px;
+	margin:auto;
+  background-image: linear-gradient(to right, #DECBA4, #3E5151);
+
+  
+
+}
+
+.showcase{
+	text-align:center;
+	padding-top:10px;
+}
+
+.showcase h1{
+font-size : 2em;
+}
+
+.btn{
+font-size: 1.5em;
+}
+.links{
+	padding:30px 0;
+}
+
+.main-nav{
+	padding-top:50px;
+}
+
+.main-nav h1{
+	padding-bottom:20px;
+}
+
+footer{
+  height : 100%;
+	min-height:250px;
+	color:#ccc;
+	font-size:1.5em;
+}
+
+.dark-bg {
+  background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
+  
+}
+footer a{
+	color:white;
+}
+
+footer a:hover{
+	color:white;
+}
+
+
+footer img{
+	display:block;
+	position:relative;
+	margin:5px auto 20px auto;
+}
+
+.center{
+	text-align:center;
+}
+
+footer li, footer p{
+	margin : 0;
+	padding : 7px;
+}
+
+ul.links i {
+  font-size: 25px;
+}
+
+.tools{
+    
+  position: relative;
+  width: fit-content;
+  margin: 10px auto;
+  display:flex;
+  align-items: center;
+
+}
+.box{
+  width: 300px;
+  height: 300px;
+  margin:20px;
+  padding: 1px black;
+  box-shadow: 12px 5px 30px  white;
+  position: relative;
+  top: 0px;
+  bottom: 10px;
+  border-radius: 16px;
+  transition: 0.5s;
+  cursor: pointer;
+  align-items: center;
+}  
+.box img{
+  margin-right: 0px;
+  display:block;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+
+}
+.box:hover{
+  transform: scale(1.1);
+
+}
+.container{
+  width: 100%;
+  height: 100%;
+}
+.projects{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.app{
+  width: 300px;
+  height: 300px;
+}
+.app img{
+  width: 300px;
+  height: 300px;
+}
