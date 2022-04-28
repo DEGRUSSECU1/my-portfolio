@@ -27,6 +27,8 @@ body{
   padding-left : 20px;
   height:50px;
   position : relative;
+  background-color: white;
+  border-radius: 50%;
 }
 
 .navbar-brand img{
@@ -95,6 +97,7 @@ body{
 	font-size : 1.2em;
 		position : relative;
 	left : 10px;
+ 
 }
 
 
@@ -139,10 +142,12 @@ font-size: 1.5em;
 
 .main-nav{
 	padding-top:50px;
+
 }
 
 .main-nav h1{
 	padding-bottom:20px;
+  
 }
 
 footer{
@@ -153,7 +158,7 @@ footer{
 }
 
 .dark-bg {
-  background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
+  background-image: radial-gradient(circle farthest-side, #fceabb, #022c43);
   
 }
 footer a{
@@ -202,7 +207,7 @@ ul.links i {
   position: relative;
   top: 0px;
   bottom: 10px;
-  border-radius: 16px;
+  border-radius: 10%;
   transition: 0.5s;
   cursor: pointer;
   align-items: center;
@@ -212,7 +217,7 @@ ul.links i {
   display:block;
   width: 100%;
   height: 100%;
-  border-radius: 16px;
+  border-radius: 10%;
 
 }
 .box:hover{
